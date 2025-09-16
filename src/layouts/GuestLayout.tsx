@@ -7,7 +7,7 @@ interface GuestLayoutProps {
 const GuestLayout: React.FC<GuestLayoutProps> = ({ children }) => {
   return (
     <div className="guest-layout">
-      GuestLayout
+      
       <main>{children}</main>
     </div>
   );
